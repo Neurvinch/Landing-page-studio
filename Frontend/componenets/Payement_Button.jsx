@@ -17,7 +17,7 @@ const Payement_Button = () => {
           },
           body: JSON.stringify(
             {
-              amount:500000 // simple converting string into JSON to api
+              amount:500000   // simple converting string into JSON to api
             }
           ),
       }); 

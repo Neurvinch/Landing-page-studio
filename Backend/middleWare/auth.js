@@ -1,4 +1,4 @@
-const jwt = rquire("jsonwebtoken");
+const jwt = require("jsonwebtoken");
 
 module.exports = (req,res,next) =>{
     const token = req.header('authorization')?.replace('Bearer','');
